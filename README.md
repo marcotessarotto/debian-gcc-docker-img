@@ -3,7 +3,7 @@ create a docker image based on Linux Debian with gcc, git, ssh server and user "
 
 to build image with docker:
 ```
-docker build --tag=debian-gcc-docker-img
+docker build --tag=debian-gcc-docker-img .
 ```
 
 run image (starts bash):
