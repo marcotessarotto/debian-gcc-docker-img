@@ -1,6 +1,10 @@
 # debian-gcc-docker-img
 create a docker image based on Linux Debian with gcc, git, ssh server and user "utente" (with password "units").
 
+Nota su ssh in docker:
+
+https://jpetazzo.github.io/2014/06/23/docker-ssh-considered-evil/
+
 to build image with docker:
 ```
 docker build --tag=debian-gcc-docker-img .
