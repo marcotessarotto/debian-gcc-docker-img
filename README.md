@@ -13,7 +13,7 @@ docker build --tag=debian-gcc-docker-img .
 
 run image (starts bash):
 ```
-run -it -p 2222:22 debian-gcc-docker-img
+docker run -it -p 2222:22 debian-gcc-docker-img
 ```
 in bash:
 
